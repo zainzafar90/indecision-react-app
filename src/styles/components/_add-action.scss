@@ -1,0 +1,29 @@
+.add-action__error {
+  color: $off-white;
+  font-style: italic;
+  margin: $s-size 0 0 0;
+  padding: $s-size;
+}
+
+.add-action--form {
+  display: flex;
+  padding: $s-size;
+  input {
+    flex: 1;
+    background-color: $blue;
+    border: none;
+    padding: $s-size;
+    color: white;
+    border-bottom: 0.3rem solid darken($blue, 10%);
+  }
+}
+
+
+@media (max-width: 45rem) {
+  .add-action--form {
+    flex-direction: column;
+    input {
+      margin-bottom: $s-size;
+    }
+  }
+}
