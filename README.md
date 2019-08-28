@@ -2,12 +2,8 @@
 
 ### Installation
 
-Install `live-server` and packages from package.json
+Just run `npm install`
 
 ### Run
 
-#### Build command
-> npm run build
-
-#### Server command
-> npm run serve
+> npm run dev-server
